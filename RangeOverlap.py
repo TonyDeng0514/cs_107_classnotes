@@ -1,4 +1,4 @@
-def rangeOverlap(x0: int, x1: int, x2: int, x3: int) -> bool:
+def rangeOverlap(x0: float, x1: float, x2: float, x3: float) -> bool:
     assert x0 <= x1 and x2 <= x3
     
     # min1<=max2 and min2<=max1
