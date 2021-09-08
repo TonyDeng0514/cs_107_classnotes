@@ -1,13 +1,19 @@
 class Student:
    Total= 0
-   def __init__(self, name="Adam", id="123456789"):
-       self.name = name
-       self.ID = id
+   def __init__(self, name="Adam", id="123456789"): # default informations
+       self.name = name # property of self
+       self.ID = id     # property of self
        Student.Total += 1
-   def displayCount(self):
+   def displayCount(self):  # 
        print ("Total students %d" % Student.Total)
    def displayStudentDetails(self):
        print ("Name: ", self.name, ", ID: ", self.ID)
+
+         
+'''
+This code is building three things, adam, alice, bob.
+'''
+
 
 if __name__ == "__main__":
     Student1 = Student()
