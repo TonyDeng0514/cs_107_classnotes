@@ -1,0 +1,26 @@
+Objects in CS
+  Used to represent items involved in an algorithm
+  Two major components
+    methods (i.e., behaviors)
+    properties (i.e., state)
+    
+Juggling algorithm:
+
+# Objects: Hands and Balls.
+# Properties: for hands: we have throw() and catch(), and display/set output.
+
+ # assume that there's only one of of throwing
+ # the balls, which is from one hand to the other 
+ # hand.
+ 
+lefthand.throw(ball[0]) # initialize with throwing the first ball
+
+# iteration of throwing balls
+for i in range(3):
+  righthand.throw(ball[i + 1])
+  righthand.catch(ball[i])
+  lefthand.throw(ball[i + 2])
+  lefthand.catch(ball[i + 1])
+  
+  
+The underscores are there so that people don't mistakenly use a researved method.
