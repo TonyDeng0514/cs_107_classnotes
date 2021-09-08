@@ -2,6 +2,7 @@
 INSERT TEST SUITE HERE
 
 >>> windowOverlap( 116 ,  258 ,  86 ,  163 ,  228 ,  313 ,  141 ,  206 )
+True
 
 """
 
