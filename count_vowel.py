@@ -1,8 +1,10 @@
-st = input("enter a string: ")
-
 def count_vowel(st):
   count = 0
-  for i in st:
-    if i == a or i == e or i == i or i == o or i == u:
+  for i in st.lower():
+    if i in ['a','e','i','o','u']:
       count += 1
   return count
+
+st = input("enter a string: ")
+
+print(count_vowel(st))
