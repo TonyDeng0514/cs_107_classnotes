@@ -12,6 +12,8 @@
 >>> assert gezinto(5, 0) == 0
 >>> assert gezinto(3, 9237) == 3079
 
+#>>> assert gezinto(-3, -2) 
+
 '''
 
 from Logic import *
