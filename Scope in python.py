@@ -11,10 +11,10 @@ class Test():
         print("4. Object x:", self.x)
         try:
             print(y)  # Trying to access y which is not defined
-            # self.y is accessible
+            print(self.y) # self.y is accessible
         except NameError as e:
             print("5.", e)  
             
 # Driver code
 Object = Test()
-DemoLink
+
