@@ -17,5 +17,6 @@ class example:
         return rev_help(self.rep)
 
 tester = example(5)
-print(tester)       # what's wrong here?
+print(tester.rep)       
+print(tester.size)
 print(tester.reverse())
