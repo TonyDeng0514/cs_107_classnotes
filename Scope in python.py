@@ -10,7 +10,7 @@ class Test():
         print("3. Class x:", Test.x)
         print("4. Object x:", self.x)
         try:
-            print(y)  # Trying to access y which is not defined
+            #print(y)  # Trying to access y which is not defined
             print(self.y) # self.y is accessible
         except NameError as e:
             print("5.", e)  
